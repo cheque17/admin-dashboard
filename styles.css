@@ -2,6 +2,7 @@
 body {
 	height: 100vh;
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
 .sidebar {
 	padding-top: 25px;
 	padding-left: 20px;
-	background-color: aquamarine;
+	background-color: rgb(22, 143, 212);
 	grid-row: 1/ span 2;
 	
 	display: grid;
@@ -23,16 +24,22 @@ body {
 
 .sidebar > div:nth-child(-n + 2) {
 	display: grid;
-	grid-template-columns: 25% auto;
+	grid-template-columns: 30% auto;
 	grid-auto-rows: 1fr;
+	font-weight: 600;
+	color: aliceblue;
+	align-items: center;
 }
 
 .sidebar > div:nth-child(3) {
 	display: grid;
-	grid-template-columns: 25% auto;
+	grid-template-columns: 30% auto;
 	grid-template-rows: repeat(3, 32px);
 	row-gap: 10px;
 	align-content: center;
+	font-weight: 600;
+	color: aliceblue;
+	align-items: center;
 }
 
 .header {
@@ -41,4 +48,14 @@ body {
 
 .main-content {
 	background-color: darksalmon;
+}
+
+.logo {
+	height: 18px;
+	width: 18px;
+}
+
+.main-logo {
+	height: 40px;
+	width: 40px;
 }
