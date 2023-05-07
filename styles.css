@@ -12,6 +12,8 @@ body {
 }
 
 .sidebar {
+	padding-top: 25px;
+	padding-left: 20px;
 	background-color: aquamarine;
 	grid-row: 1/ span 2;
 	
@@ -19,10 +21,18 @@ body {
 	grid-template-rows: 12% 35% 35% auto;
 }
 
-.sidebar > div {
+.sidebar > div:nth-child(-n + 2) {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 60px auto;
 	grid-auto-rows: 1fr;
+}
+
+.sidebar > div:nth-child(3) {
+	display: grid;
+	grid-template-columns: 60px auto;
+	grid-template-rows: repeat(3, 32px);
+	row-gap: 10px;
+	align-content: center;
 }
 
 .header {
