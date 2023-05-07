@@ -1,0 +1,25 @@
+
+body {
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+	height: 100%;
+  display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+	background-color: aquamarine;
+	grid-row: 1/ span 2;
+}
+
+.header {
+	background-color: chartreuse;
+}
+
+.main-content {
+	background-color: darksalmon;
+}
