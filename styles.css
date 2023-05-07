@@ -13,7 +13,6 @@ body {
 }
 
 .sidebar {
-	padding-top: 25px;
 	padding-left: 20px;
 	background-color: rgb(22, 143, 212);
 	grid-row: 1/ span 2;
@@ -35,11 +34,19 @@ body {
 	display: grid;
 	grid-template-columns: 30% auto;
 	grid-template-rows: repeat(3, 32px);
-	row-gap: 10px;
+	row-gap: 5px;
 	align-content: center;
 	font-weight: 600;
 	color: aliceblue;
 	align-items: center;
+}
+
+.sidebar > div:nth-child(2){
+	margin-top: 40px;
+}
+ 
+.sidebar > div:first-child {
+	font-size: 20px;
 }
 
 .header {
