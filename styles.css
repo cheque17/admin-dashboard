@@ -23,13 +23,13 @@ body {
 
 .sidebar > div:nth-child(-n + 2) {
 	display: grid;
-	grid-template-columns: 60px auto;
+	grid-template-columns: 25% auto;
 	grid-auto-rows: 1fr;
 }
 
 .sidebar > div:nth-child(3) {
 	display: grid;
-	grid-template-columns: 60px auto;
+	grid-template-columns: 25% auto;
 	grid-template-rows: repeat(3, 32px);
 	row-gap: 10px;
 	align-content: center;
