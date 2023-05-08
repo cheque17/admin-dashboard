@@ -57,12 +57,17 @@ body {
 	background-color: darksalmon;
 }
 
-.logo {
+.icon {
 	height: 18px;
 	width: 18px;
 }
 
-.main-logo {
+.main-icon {
 	height: 40px;
 	width: 40px;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 }
