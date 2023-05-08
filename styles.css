@@ -48,7 +48,7 @@ body {
 	font-size: 20px;
 }
 
-/*Styles for CSS*/
+/*Styles for header*/
 
 .header {
 	background-color: chartreuse;
@@ -100,6 +100,21 @@ body {
 .header > div:nth-child(3) > img {
 	justify-self: end;
 	margin-right: 20px;
+}
+
+.header > div:last-child {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header > div:last-child > button {
+	border-radius: 15px;
+	border-style: none;
+	padding: 8px 16px;
+	background-color: rgb(3, 97, 219);
+	color: white;
+	font-weight: 600;
 }
 
 .main-content {
