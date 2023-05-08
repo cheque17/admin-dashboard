@@ -70,4 +70,25 @@ body {
 .header {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	align-items: center;
+}
+
+.header > div:first-child{
+	display: flex;
+	margin-left: 40px;
+	margin-right: 100px;
+}
+
+.header > div:first-child > input {
+	flex: 1;
+	margin-left: 15px;
+	border-radius: 10px;
+	border-style: none;
+	background-color: rgb(231, 217, 217);
+}
+
+.header > div:nth-child(3) {
+	display: grid;
+	grid-template-columns: 20% auto;
 }
