@@ -31,7 +31,7 @@ body {
 	background-color: rgb(22, 143, 212);
 	grid-row: 1/ span 2;
 	display: grid;
-	grid-template-rows: 12% 35% 35% auto;
+	grid-template-rows: 81px 204px 234px auto;
 }
 
 .sidebar > div:nth-child(-n + 2) {
@@ -161,6 +161,8 @@ body {
 	text-align: left;
 	align-items: center;
 	padding: 0 15px;
+	font-size: 12px;
+	color: rgb(116, 114, 114);
 }
 
 .announcements {
