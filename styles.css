@@ -194,10 +194,16 @@ body {
 	display: grid;
 	grid-template-rows: repeat(2, 45px 240px);
 	row-gap: 20px;
+	padding-right: 35px;
 }
 
 .announcements > p {
 	margin-bottom: 0;
 	font-size: 20px;
 	font-weight: 400;
+}
+
+.announcements > div {
+	border-radius: 6px;
+	background-color: aliceblue;
 }
