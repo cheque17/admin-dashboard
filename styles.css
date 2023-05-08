@@ -7,7 +7,7 @@ body {
 
 .container {
 	height: 100%;
-  display: grid;
+	display: grid;
 	grid-template-columns: 1fr 4fr;
 	grid-template-rows: 1fr 4fr;
 }
@@ -16,7 +16,6 @@ body {
 	padding-left: 20px;
 	background-color: rgb(22, 143, 212);
 	grid-row: 1/ span 2;
-	
 	display: grid;
 	grid-template-rows: 12% 35% 35% auto;
 }
@@ -49,30 +48,16 @@ body {
 	font-size: 20px;
 }
 
+/*Styles for CSS*/
+
 .header {
 	background-color: chartreuse;
-}
-
-.main-content {
-	background-color: darksalmon;
-}
-
-.icon {
-	height: 18px;
-	width: 18px;
-}
-
-.main-icon {
-	height: 40px;
-	width: 40px;
-}
-
-.header {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 2fr;
 	grid-template-rows: repeat(2, 1fr);
 	align-items: center;
 }
+
 
 .header > div:first-child{
 	display: flex;
@@ -88,7 +73,45 @@ body {
 	background-color: rgb(231, 217, 217);
 }
 
+.header > div:nth-child(2) {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	align-items: center;
+	justify-content: center;
+}
+
+.header > div:nth-child(2) > img:nth-child(2) {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
 .header > div:nth-child(3) {
 	display: grid;
-	grid-template-columns: 20% auto;
+	grid-template-columns: 17% auto;
+	align-items: center;
+}
+
+.header > div:nth-child(3) > div > p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.header > div:nth-child(3) > img {
+	justify-self: end;
+	margin-right: 20px;
+}
+
+.main-content {
+	background-color: darksalmon;
+}
+
+.icon {
+	height: 18px;
+	width: 18px;
+}
+
+.main-icon {
+	height: 40px;
+	width: 40px;
 }
