@@ -168,6 +168,12 @@ body {
 	color: rgb(116, 114, 114);
 }
 
+.project-items > p:first-child {
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+}
+
 .announcements {
 	background-color: blueviolet;
 }
