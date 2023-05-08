@@ -206,4 +206,5 @@ body {
 .announcements > div {
 	border-radius: 6px;
 	background-color: aliceblue;
+	padding: 0 18px;
 }
