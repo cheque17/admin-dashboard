@@ -244,10 +244,22 @@ body {
 .profiles .icon {
 	grid-row: 1 / span 2;
 	align-self: center;
+	justify-self: center;
+	height: 30px;
+	width: 30px;
 }
 
 .profiles > .inside-content > p {
 	margin: 0 0;
+	font-size: 15px;
+}
+
+.profiles > .inside-content > p:nth-child(2) {
+	align-self: end;
+}
+
+.profiles > .inside-content > p:last-child {
+	color: gray;
 }
 
 
