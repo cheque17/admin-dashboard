@@ -206,7 +206,7 @@ body {
 .announcements > div {
 	border-radius: 6px;
 	background-color: aliceblue;
-	padding: 0 18px;
+	padding: 20px 18px;
 }
 
 .announcements > .news {
@@ -232,6 +232,22 @@ body {
 .news .inside-content > p:first-child {
 	margin-bottom: 0;
 	font-weight: 600;
+}
+
+.profiles > .inside-content {
+	display: grid;
+	grid-template-columns: 40px auto;
+	grid-template-rows: 1fr 1fr;
+	
+}
+
+.profiles .icon {
+	grid-row: 1 / span 2;
+	align-self: center;
+}
+
+.profiles > .inside-content > p {
+	margin: 0 0;
 }
 
 
