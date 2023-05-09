@@ -207,8 +207,16 @@ body {
 	border-radius: 6px;
 	background-color: aliceblue;
 	padding: 0 18px;
+}
+
+.announcements > div:nth-child(2) {
 	display: grid;
 	grid-template-rows: repeat(3, 1fr);
+}
+
+.announcements > div:nth-child(4) {
+	display: grid;
+	grid-template-rows: repeat(4, 1fr);
 }
 
 .inside-content:nth-child(-n + 2) {
@@ -225,3 +233,5 @@ body {
 	margin-bottom: 0;
 	font-weight: 600;
 }
+
+
