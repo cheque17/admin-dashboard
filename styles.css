@@ -28,10 +28,11 @@ body {
 
 .sidebar {
 	padding-left: 20px;
-	background-color: rgb(22, 143, 212);
+	background-color: rgb(42, 140, 197);
 	grid-row: 1/ span 2;
 	display: grid;
 	grid-template-rows: 81px 204px 234px auto;
+	z-index: 2;
 }
 
 .sidebar > div:nth-child(-n + 2) {
@@ -65,11 +66,14 @@ body {
 /*Styles for header*/
 
 .header {
-	background-color: chartreuse;
+	background-color: rgb(255, 255, 255);
+	/*rgb(101, 245, 255);*/
 	display: grid;
 	grid-template-columns: 3fr 2fr;
 	grid-template-rows: repeat(2, 1fr);
 	align-items: center;
+	box-shadow: 0 1px 7px 5px rgb(160, 160, 160);
+	z-index: 1;
 }
 
 
@@ -84,7 +88,7 @@ body {
 	margin-left: 15px;
 	border-radius: 10px;
 	border-style: none;
-	background-color: rgb(231, 217, 217);
+	background-color: rgb(187, 187, 187);
 }
 
 .header > div:nth-child(2) {
@@ -129,12 +133,14 @@ body {
 	background-color: rgb(3, 97, 219);
 	color: white;
 	font-weight: 600;
+	width: 80px;
 }
 
 /*Styles for the main content*/
 
 .main-content {
-	background-color: rgb(16, 219, 83);
+	background-color: rgb(207, 207, 207);
+	/*rgb(105, 212, 216)*/
 	display: grid;
 	grid-template-columns: auto 300px;
 }
@@ -167,6 +173,7 @@ body {
 	padding: 0 15px;
 	font-size: 12px;
 	color: rgb(116, 114, 114);
+	box-shadow: 3px 3px 7px 1px rgb(160, 160, 160);
 }
 
 .project-items > p:first-child {
@@ -190,7 +197,6 @@ body {
 
 .announcements {
 	padding-top: 10px;
-	background-color: blueviolet;
 	display: grid;
 	grid-template-rows: repeat(2, 45px 270px);
 	row-gap: 20px;
@@ -207,6 +213,7 @@ body {
 	border-radius: 6px;
 	background-color: aliceblue;
 	padding: 20px 18px;
+	box-shadow: 3px 3px 7px 1px rgb(160, 160, 160);
 }
 
 .announcements > .news {
